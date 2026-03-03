@@ -1,0 +1,46 @@
+html,
+:root {
+    --primary: #61C0BF;
+    --secondary: #BBDED6;
+    --text: #2d806c;
+    --back: #FCFDF2;
+    --peach: #FFB6B9;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Dosis", sans-serif!important;
+    background-color: var(--back)!important;
+    color:var(--text)!important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.font-loader {
+    font-family: 'Dosis';
+}
+
+h1{
+    font-weight: bold!important;
+}
+
+.carousel-indicators  {
+    top: 105% !important;
+    position: absolute;
+}
+
+.carousel-control-prev {
+    top: -40% !important;
+}
+
+.carousel-control-next {
+    top: -40% !important;
+}
