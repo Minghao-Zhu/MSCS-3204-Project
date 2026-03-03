@@ -124,7 +124,7 @@ export const EditProfile = (props) => {
                             value={school}
                             onChange={(e) => setSchool(e.target.value)}
                         >
-                            <option value="Sofia">Sofia</option>
+                            <option value="Sofia University">Sofia University</option>
                             <option value="Other">Other</option>
                         </Form.Control>
                     </Col>

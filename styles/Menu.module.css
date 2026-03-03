@@ -1,0 +1,25 @@
+.box {
+    background-color: #61C0BF;
+    padding: 22px;
+    text-align: center;
+    color: #fcfdf2;
+    margin-top:  30px;
+    position: relative;
+    width: 100%;
+    height: 80px;
+    bottom: 5px;
+    top: 5px;
+    box-shadow: 5px 5px #2d806c;
+}
+
+.main {
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
