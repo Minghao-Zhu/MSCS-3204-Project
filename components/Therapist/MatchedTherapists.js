@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import { Button, Badge } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
-import React, { useState, useRef, useEffect } from "react";
+import React from "react";
 import styles from "../../styles/Therapists.module.css";
 import cardStyles from "../../styles/Card.module.css";
 import therapistInfo from "../../mockdata/therapists.json";
