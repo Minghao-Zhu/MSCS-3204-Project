@@ -47,7 +47,7 @@ export default function ViewAppointmentHistory() {
     };
 
     function handleJoinMeeting(e) {
-        router.push("https://cmu.zoom.us/j/6723392302");
+        window.open("https://meet.google.com/khc-uipn-dds", "_blank", "noopener,noreferrer");
     }
 
     const handleModifySubmit = (e) => {
@@ -83,11 +83,8 @@ export default function ViewAppointmentHistory() {
             }
             localStorage.setItem("allAppointment", JSON.stringify(newAllAppointment));
         }
-        if (selectedAppointment.appointmentType === "Therapist") {
-            router.push("/scheduleTherapist");
-        } else {
-            router.push("/scheduleAlumni");
-        }
+        router.push("/scheduleTherapist");
+
     };
 
     const handleCancelSubmit = (e) => {

@@ -105,7 +105,8 @@ function ScheduleTherapistConfirmation(props) {
             existingAppointment = [updatedAppointment];
         }
         localStorage.setItem("allAppointment", JSON.stringify(existingAppointment));
-        router.push("https://calendar.app.google/mF75QsPphutJqegT9");
+        window.open("https://meet.google.com/khc-uipn-dds", "_blank", "noopener,noreferrer");
+
     }
 
     const handleChangeTherapistSubmit = (e) => {
