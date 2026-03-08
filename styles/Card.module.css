@@ -1,0 +1,30 @@
+.card {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.badge {
+    background-color: #FFB6B9 !important;
+    font-size: small;
+    margin: 0.3rem;
+}
+
+.badgeGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.infoField {
+    margin-bottom: 0.5rem;
+}
+
+.cardName {
+    margin-left: 0.5rem;
+}
+
+.infoText {
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}

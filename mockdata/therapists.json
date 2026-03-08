@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "name": "Ralph Grey",
+    "position": "Volunteer Mental Therapist",
+    "phone": "5401234567",
+    "email": "talphg@ggaamail.com",
+    "description": "I have worked with students for over 5 years in the Bay Area. My primary practice focuses on facilitating students through school-related stress, anxiety, peer relationships, and depression. I am able to help my clients with a variety of performance skills ranging from mindset and motivation to improving focus and concentration.",
+    "photo": "images/1.jpg",
+    "skills": ["School-related Stress", "Anxiety", "Peer Relationships"]
+  },
+  {
+    "id": 1,
+    "name": "Mark C.",
+    "position": "Licensed Therapist",
+    "phone": "540754321",
+    "email": "markc@ggaamail.com",
+    "description": "My specialty is with providing a safe and interactive environment in which to tackle difficult subjects, deep seated trauma, or to just say the things you never thought you would say outloud. My specialty population is children and adolescents and I have experience in working with children.",
+    "photo": "images/2.jpg",
+    "skills": ["Children", "Adolescents"]
+  },
+  {
+    "id": 2,
+    "name": "Dr. Kimberly Outlaw",
+    "position": "Licensed Therapist",
+    "phone": "5401234321",
+    "email": "kimberlyO@ggaamail.com",
+    "description": "I have over 10 years of experience in outpatient therapy, medical settings, and community mental health. Through these experiences, I have worked with many populations from various walks of life. I believe that everyone's journey is unique. What works for one person might not necessarily work for you.",
+    "photo": "images/3.jpg",
+    "skills": [
+      "Outpatient therapy",
+      "Medical Setting",
+      "Community Mental Health"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Michelle Wilson",
+    "position": "Licensed Therapist",
+    "phone": "5404321321",
+    "email": "michelleW@ggaamail.com",
+    "description": "I have worked with children, families and adults for over 25 years. The last seven years of my career has been spent in the clinical world of social work, working with clients with severe and persistent mental illness like schizophrenia, bipolar and major depression. I, have a nurturing spirit, encourages and motivates my clients for success.",
+    "photo": "images/4.jpg",
+    "skills": ["Children", "Families", "Adults"]
+  },
+  {
+    "id": 4,
+    "name": "Connie Nelson",
+    "position": "Licensed Therapist",
+    "phone": "1234567890",
+    "email": "connieN@ggaamail.com",
+    "description": "My clients include children, adolescents, families and adults. I have extensive training in treating childhood trauma and Post-Traumatic Stress Disorder(PTSD) which includes EMDR and TF-CBT, both evidence-based treatment modalities.",
+    "photo": "images/5.jpg",
+    "skills": ["Childhood Trauma", "PTSD", "EMDR", "TF-CBT"]
+  }
+]

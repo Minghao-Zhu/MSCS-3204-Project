@@ -1,10 +1,10 @@
+import { Button, Modal, Form } from "react-bootstrap";
 import styles from "../styles/General.module.css";
-import profileStyles from "../styles/Profile.module.css";
 import Head from "next/head";
 import React, { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/router";
 import { EditProfile } from "../components/Profile/EditProfile";
-import { Button, Modal, Form } from "react-bootstrap";
+
 export default function CreateProfile() {
     let [user, setUser] = useState({});
     const router = useRouter();

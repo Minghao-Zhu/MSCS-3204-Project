@@ -1,0 +1,69 @@
+.main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: "100%";
+    width: "100%";
+    overflow-y: hidden;
+}
+
+.text {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin-bottom: 5%;
+}
+
+.emptyLine {
+    color: white;
+}
+
+.paragraph {
+    overflow-y: auto;
+    height: "100px";
+    width: "100%";
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 2px;
+    border-color: var(--secondary);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.094), 0 6px 20px 0 rgba(0, 0, 0, 0.094);
+}
+
+.photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.094), 0 6px 20px 0 rgba(0, 0, 0, 0.094);
+}
+
+.button {
+    padding-bottom: 10%;
+    color: red;
+}
+
+.appointmentButton {
+    width: 70%;
+    padding: auto;
+    text-align: center;
+    height: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2rem;
+}
+
+.backButton {
+    width: 70%;
+    padding: auto;
+    text-align: center;
+    height: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1rem;
+}

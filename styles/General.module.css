@@ -54,25 +54,25 @@
     position: fixed;
     bottom: 0;
     height: 60px;
-    width: 100%; /* Full-width */
-    background-color: var(--primary); /* Dark-grey background */
-    overflow: auto; /* Overflow due to float */
+    width: 100%;
+    background-color: var(--primary);
+    overflow: auto;
     z-index: 99;
 }
 
 .iconbar a {
-    float: left; /* Float links side by side */
-    text-align: center; /* Center-align text */
+    float: left;
+    text-align: center;
     height: 100%;
     color: #ffb6b9;
     bottom: 15px;
-    width: 16.66%; /* Equal width (5 icons with 20% width each = 100%) */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    font-size: 36px; /* Increased font size */
+    width: 16.66%;
+    transition: all 0.3s ease;
+    font-size: 36px;
 }
 
 .iconbar a:hover {
-    background-color: var(--secondary); /* Add a hover color */
+    background-color: var(--secondary);
 }
 
 @media (max-width: 600px) {
