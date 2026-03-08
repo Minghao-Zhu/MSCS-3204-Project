@@ -1,0 +1,12 @@
+.calendar {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.button {
+    margin-top: 0.5rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -68,31 +68,7 @@ function ScheduleTherapistConfirmation(props) {
             );
         }
         router.push("/viewAppointmentHistory");
-        let emailData = {
-            mentor: pendingTherapistName,
-            date: appointment.formattedDate,
-            section: appointment.section,
-            studentEmail: email,
-            mentorEmail: pendingTherapist.email,
-            student: name,
-            type: "therapist",
-        };
-        fetch("/api/email/cancel", {
-            method: "POST",
-            headers: {
-                Accept: "application/json, text/plain, */*",
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(emailData),
-        })
-            .then((res) => {
-                if (res.status != 200) {
-                    alert("Failed to send email confirmations");
-                }
-            })
-            .catch((err) => {
-                console.log("email/cancel therapist err:", err);
-            });
+
     };
 
     function handleCancelAppointment(e) {
@@ -115,33 +91,7 @@ function ScheduleTherapistConfirmation(props) {
             );
         }
         router.push("/scheduleTherapist");
-        // Email
-        let emailData = {
-            mentor: pendingTherapistName,
-            date: appointment.formattedDate,
-            section: appointment.section,
-            studentEmail: email,
-            mentorEmail: pendingTherapist.email,
-            student: name,
-            type: "therapist",
-        };
 
-        fetch("/api/email/schedule", {
-            method: "POST",
-            headers: {
-                Accept: "application/json, text/plain, */*",
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(emailData),
-        })
-            .then((res) => {
-                if (res.status != 200) {
-                    alert("Failed to send email confirmations");
-                }
-            })
-            .catch((err) => {
-                console.log("email cancel (therapist):", err);
-            });
     };
 
     function handleJoinMeeting(e) {

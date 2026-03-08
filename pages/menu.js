@@ -55,11 +55,6 @@ export default function Menu() {
                         <Icon2.FaUserMd></Icon2.FaUserMd> Find a therapist
                     </h4>
                 </div>
-                <div className={menuStyles.box} onClick={handleMeetAlumni}>
-                    <h4>
-                        <Icon2.FaUserGraduate></Icon2.FaUserGraduate> Meet with Alumni
-                    </h4>
-                </div>
                 <div className={menuStyles.box} onClick={handleResource}>
                     <h4>
                         <Icon2.FaFileImage></Icon2.FaFileImage> Resource Sharing Board

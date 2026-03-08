@@ -11,7 +11,6 @@ export const Navbar = (props) => {
             <Link legacyBehavior href="/menu"><a><Icon2.FaHome></Icon2.FaHome></a></Link>
             <Link legacyBehavior href="/viewProfile"><a><Icon1.ImProfile></Icon1.ImProfile></a></Link>
             <Link legacyBehavior href="/viewTherapists"><a><Icon2.FaUserMd></Icon2.FaUserMd></a></Link>
-            <Link legacyBehavior href="/alumniCategory"><a><Icon2.FaUserGraduate></Icon2.FaUserGraduate></a></Link>
             <Link legacyBehavior href="/resourceBoard"><a><Icon2.FaFileImage></Icon2.FaFileImage></a></Link>
             <Link legacyBehavior href="/viewAppointmentHistory"><a><Icon2.FaHistory></Icon2.FaHistory></a></Link>
         </div>
