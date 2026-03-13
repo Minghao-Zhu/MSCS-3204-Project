@@ -41,7 +41,7 @@ export const MatchedTherapists = (props) => {
                         <Image
                             roundedCircle
                             src={therapist.photo}
-                            alt="Image One"
+                            alt="Therapist Photo"
                             style={{ height: "40%", width: "40%" }}
                             className={styles.photo}
                         />
